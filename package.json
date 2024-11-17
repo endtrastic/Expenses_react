@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "expenses2",
-=======
   "name": "expenses",
->>>>>>> c0ec0baea13ed1cd052a6364d0c840ef6ec09321
   "version": "0.1.0",
   "private": true,
   "dependencies": {
