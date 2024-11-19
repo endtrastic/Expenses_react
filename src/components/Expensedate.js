@@ -1,3 +1,4 @@
+import Card from './Card'
 import './Expensedate.css'
 
 const ExpenseDate = (props) => {
