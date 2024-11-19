@@ -1,21 +1,16 @@
 import ExpenseItem from './Expenseitem'
-import Expensedate from './Expensedate'
-import './Expenseitem.css'
+import Card from './Card'
+import './Expenses.css'
 
 
 const Expenses = (props) => {
-
+    console.log(props.expenses[1])
     return (
-            <div className="expense-item">
-                <Expensedate date={props.data.date} />
-                <ExpenseItem 
-                data={{
-                    price: props.data.price,
-                    title: props.data.title,
-                }}
-                />
-            </div>
+        <Card className="expenses">
+            <ExpenseItem data={props.expenses[0]}/>
+            <ExpenseItem data={props.expenses[1]}/>
+        </Card>
     )
 }
 
-export default Expenses
+export default Expenses;
